@@ -1,0 +1,5 @@
+<% unless cart.empty?%>
+    <h2><% cart.map do |item| %>
+        <h2><%= item  %></h2>
+    <% end %>
+<% end %>
